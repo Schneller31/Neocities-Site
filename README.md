@@ -1,5 +1,5 @@
 # Neocities-Site
-My Neocities Webiste
+My Neocities Website
 ---
 I've started learning HTML, plz dont hate :)
 
