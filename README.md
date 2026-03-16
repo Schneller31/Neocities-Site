@@ -1,6 +1,6 @@
 # Neocities-Site
 My Neocities Website
 ---
-I've started learning HTML, plz dont hate :)
+I've started learning HTML and CSS, plz dont hate :)
 
 https://www.schneller.neocities.org
