@@ -3,4 +3,4 @@ My Neocities Website
 ---
 I've started learning HTML and CSS, plz dont hate :)
 
-https://www.schneller.neocities.org
+https://schneller.neocities.org
