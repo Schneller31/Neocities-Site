@@ -65,8 +65,7 @@ a {
     }
 }
 
-/* Hover-Effekt: Jetzt mit leichtem Glanz oder Schatten kombiniert? */
 .social-links img:hover {
-    transform: scale(1.15); /* Etwas stärkeres Zoomen */
-    filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.2)); /* Sanfter Schatten beim Drüberfahren */
+    transform: scale(1.15);
+    filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.2)); 
 }
