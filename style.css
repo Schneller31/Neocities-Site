@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+body {
+  background-color: #30313E;
+  color: white;
+  font-family: "Bitcount Prop Double Ink", monospace;
+  font-weight: 500;
+}
+
+a {
+  color: white; /* Damit links als Text die Farbe weiß haben*/
+}
+
+.mittig-ueberschrift {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+.mittig-normal {
+  text-align: center;
+}
+
+ /* Ab hier beginnt das Chaos 0.0 */
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px;
+    align-items: center;
+}
+.social-links li {
+    flex: 0 1 20%;
+    max-width: 100px; 
+    min-width: 50px;
+}
+.social-links img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease; /* Animation */
+}
+
+/* --- Ich will mein leben beenden --- */
+@media (max-width: 768px) {
+    .social-links {
+        gap: 20px;
+    }
+    .social-links li {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-links {
+        gap: 15px;
+    }
+    .social-links li {
+        max-width: 60px;
+    }
+}
+
+/* Hover-Effekt: Jetzt mit leichtem Glanz oder Schatten kombiniert? */
+.social-links img:hover {
+    transform: scale(1.15); /* Etwas stärkeres Zoomen */
+    filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.2)); /* Sanfter Schatten beim Drüberfahren */
+}
