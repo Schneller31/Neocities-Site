@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* NUR FÜR die Boxen in music.html! */
+.top-five-box {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.boxen-nebeneinander {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px;
+}
+
+.box-one, .box-two, .box-three {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.box-one { background-color: #212b25; }
+.box-two { background-color: #21272b; }
+.box-three { background-color: #2b2124; }
+
+
+.boxen-nebeneinander a {
+  color: #ffffff;
+  text-decoration: underline;
+  opacity: 0.8;
+}
+.boxen-nebeneinander a:hover { /* Damit man drüber hovern kann und es gut aussieht */
+  opacity: 1;
+  color: #ffd700;
+}
+
+@media (max-width: 800px) { /* Anpassung an Screen-Größe */
+  .boxen-nebeneinander {
+    flex-direction: column;
+  }
+}
