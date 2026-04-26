@@ -4,7 +4,7 @@
 body {
   background-color: #30313E;
   color: white;
-  font-family: "Bitcount Prop Double Ink", monospace;
+  font-family: "Bitcount Prop Double Ink", monospace; 
   font-weight: 500;
 }
 
@@ -46,34 +46,34 @@ a {
 
  /* Ab hier beginnt das Chaos 0.0 */
 .social-links {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0;
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 30px;
-    align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 30px;
+  align-items: center;
 }
 .social-links li {
-    flex: 0 1 20%;
-    max-width: 100px; 
-    min-width: 50px;
+  flex: 0 1 20%;
+  max-width: 100px; 
+  min-width: 50px;
 }
 .social-links img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.5s ease; /* Animation */
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease; /* Animation */
 }
 
 @media (max-width: 768px) {
-    .social-links {
-        gap: 20px;
-    }
-    .social-links li {
-        max-width: 80px;
-    }
+  .social-links {
+    gap: 20px;
+  }
+  .social-links li {
+    max-width: 80px;
+  }
 }
 
 @media (max-width: 480px) {

@@ -32,7 +32,7 @@
 }
 .boxen-nebeneinander a:hover { /* Damit man drüber hovern kann und es gut aussieht */
   opacity: 1;
-  color: #ffd700;
+  color: #00fff7;
 }
 
 @media (max-width: 800px) { /* Anpassung an Screen-Größe */
