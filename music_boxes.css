@@ -1,9 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-/* NUR FÜR die Boxen in music.html! */
-.top-five-box {
-  font-family: 'Josefin Sans', sans-serif;
+  .music-fav-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  max-width: 600px;
+  background: #21222b;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center; 
 }
+.music-fav-box ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+.music-fav-box li {
+  margin-bottom: 8px;
+}
+
+.box-one { background-color: #212b25; }
+.box-two { background-color: #21272b; }
+.box-three { background-color: #2b2124; }
 
 .boxen-nebeneinander {
   display: flex;
@@ -20,10 +38,6 @@
   border-radius: 10px;
   color: #ffffff;
 }
-.box-one { background-color: #212b25; }
-.box-two { background-color: #21272b; }
-.box-three { background-color: #2b2124; }
-
 
 .boxen-nebeneinander a {
   color: #ffffff;

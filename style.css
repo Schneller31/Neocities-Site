@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: white; /* Damit links als Text die Farbe weiß haben*/
+  color: white; 
 }
 
 .mittig-ueberschrift {
@@ -24,27 +24,7 @@ a {
 }
 
 
-.music-fav-box { /* --- Alles nur für die Musik seite und die box oben in der Mitte --- */
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content;
-  max-width: 600px;
-  background: #21222b;
-  padding: 25px;
-  border-radius: 10px;
-  text-align: center; 
-}
-.music-fav-box ul {
-  list-style-type: none; 
-  padding: 0;
-  margin: 0;
-}
-.music-fav-box li {
-  margin-bottom: 8px;
-}
-
-
- /* Ab hier beginnt das Chaos 0.0 */
+ /* Nur für die Links aud der Index page */
 .social-links {
   list-style-type: none;
   padding: 0;
