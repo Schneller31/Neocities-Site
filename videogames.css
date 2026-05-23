@@ -14,46 +14,60 @@ body {
   text-align: center;
 }
 .mittig-normal {
-  text-align: center
+  text-align: center;
 }
-
 
 .Box {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 
-    background: #21222b;
-    border: 1px solid #444;
-    border-radius: 15px;
+  background: #21222b;
+  border: 1px solid #444;
+  border-radius: 15px;
 
-    padding: 15px;
-    margin-bottom: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
 
-    color: #ffffff;
+  color: #ffffff;
 }
+
+
+@media (max-width: 600px) {
+  .Box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .Box img {
-    border-radius: 8px;
-    object-fit: cover;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .Beschreibung {
-    background: #181a24;
-    border: 1px solid #444;
-    border-radius: 15px;
+  background: #181a24;
+  border: 1px solid #444;
+  border-radius: 15px;
 
-    padding: 15px;
-    margin-bottom: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
 
-    color: #ffffff;
+  color: #ffffff;
 }
+
 
 .videogame_picture {
-  width: 220px;
-  height: 220px;
+  width: 100%;
+  max-width: 220px;
+  height: auto; 
+  aspect-ratio: 1 / 1;
   border: 1px solid #444;
 }
+
 .hollowKnight {
-  height: 220px !important;
+  width: 100%;
+  max-width: 220px;
+  height: auto !important; 
   border: 1px solid #444;
 }
