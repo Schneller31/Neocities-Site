@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+body {
+  background-color: #30313E;
+  color: white;
+  font-family: "Bitcount Prop Double Ink", monospace; 
+  font-weight: 500;
+}
+.mittig-ueberschrift {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.mittig-normal {
+  text-align: center
+}
+
+.picture {
+    width: 250px;
+    gap: 50px;
+}
+
