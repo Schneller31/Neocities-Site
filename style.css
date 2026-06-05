@@ -1,45 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink&display=swap');
+/* Hier ist deine neue Schriftart eingebunden */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
 
+/* Globale Einstellungen */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #30313E;
-  color: white;
-  font-family: "Bitcount Prop Double Ink", monospace; 
-  font-weight: 500;
+  background-color: #1e1f29; 
+  color: #f1f1f4;
+  /* Hier aktivieren wir PT Sans für den gesamten normalen Text */
+  font-family: "PT Sans", sans-serif; 
+  font-weight: 400; /* Standard-Schriftstärke für Fließtext */
+  line-height: 1.6;
+  padding: 40px 20px;
 }
 
-a {
-  color: white; 
+/* Container, der die Website auf PCs schön kompakt hält */
+.container {
+  max-width: 650px;
+  margin: 0 auto;
 }
 
-.mittig-ueberschrift {
-  font-family: "Smooch Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+/* Header-Bereich */
+header {
   text-align: center;
+  margin-bottom: 40px;
 }
 
-.mittig-normal {
-  text-align: center
+h1 {
+  font-family: "Smooch Sans", sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Die Abschnitte (Karten-Look) */
+.section-card {
+  background-color: #2a2b36; 
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid #3d3e4f;
+}
+
+h2 {
+  font-family: "Smooch Sans", sans-serif;
+  font-size: 2rem;
+  color: #a5a6f6; /* Schöne lila-blaue Akzentfarbe für Überschriften */
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+/* Text und Listen-Styling mit PT Sans */
+p {
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+}
+
+ul {
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Link-Styling */
+a {
+  color: #ff79c6; 
+  text-decoration: none;
+  font-weight: 700; /* Macht Links fett (Nutzt das geladene bold-Gewicht von PT Sans) */
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ff92df;
+  text-decoration: underline;
+}
+
+/* Abkürzungen */
+abbr {
+  text-decoration: underline dotted #ff79c6;
+  cursor: help;
+}
+
+/* Social Media Icons im Footer */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #252632;
+  border-radius: 50px; 
+}
+
+.social-links img {
+  width: 45px;
+  height: 45px;
+  transition: transform 0.2s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.15); 
 }
 
 
-.links {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
-    background: #21222b;
-    border: 1px solid #444;
-    border-radius: 15px;
-
-    padding: 15px;
-    margin-bottom: 20px;
-
-    color: #ffffff;
-}
-
- /* Nur für die Links aud der Index page */
+ /* Nur für die Links aus der Index page */
 .social-links {
   background: #21222b;
   border: 1px solid #444;
