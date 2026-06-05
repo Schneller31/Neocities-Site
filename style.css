@@ -1,8 +1,6 @@
-/* Hier ist deine neue Schriftart eingebunden */
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
 
-/* Globale Einstellungen */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -80,52 +78,37 @@ a:hover {
 }
 
 .social-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #252632;
-  border-radius: 50px; 
-}
-
-.social-links img {
-  width: 45px;
-  height: 45px;
-  transition: transform 0.2s ease;
-}
-
-.social-links img:hover {
-  transform: scale(1.15); 
-}
-
- /* Nur für die Links aus der Index page */
-.social-links {
   background: #21222b;
   border: 1px solid #444;
   border-radius: 15px;
   padding: 15px;
+  margin-top: 40px;
   margin-bottom: 20px;
-  
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: nowrap;
   justify-content: center; 
   gap: 30px;
   align-items: center;
 }
+
 .social-links li {
   flex: 0 1 20%;
   max-width: 100px; 
   min-width: 50px;
 }
+
 .social-links img {
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.5s ease; /* Animation */
   border-radius: 25px;
+  transition: transform 0.5s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.2)); 
 }
 
 @media (max-width: 768px) {
@@ -138,15 +121,10 @@ a:hover {
 }
 
 @media (max-width: 480px) {
-    .social-links {
-        gap: 15px;
-    }
-    .social-links li {
-        max-width: 60px;
-    }
-}
-
-.social-links img:hover {
-    transform: scale(1.15);
-    filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.2)); 
+  .social-links {
+    gap: 15px;
+  }
+  .social-links li {
+    max-width: 60px;
+  }
 }
