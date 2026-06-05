@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
   .music-fav-box {
   margin-left: auto;
@@ -28,7 +28,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 20px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   padding: 10px;
 }
 

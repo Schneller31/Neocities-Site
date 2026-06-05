@@ -12,20 +12,17 @@
 body {
   background-color: #1e1f29; 
   color: #f1f1f4;
-  /* Hier aktivieren wir PT Sans für den gesamten normalen Text */
   font-family: "PT Sans", sans-serif; 
-  font-weight: 400; /* Standard-Schriftstärke für Fließtext */
+  font-weight: 400;
   line-height: 1.6;
   padding: 40px 20px;
 }
 
-/* Container, der die Website auf PCs schön kompakt hält */
 .container {
   max-width: 650px;
   margin: 0 auto;
 }
 
-/* Header-Bereich */
 header {
   text-align: center;
   margin-bottom: 40px;
@@ -39,7 +36,6 @@ h1 {
   text-transform: uppercase;
 }
 
-/* Die Abschnitte (Karten-Look) */
 .section-card {
   background-color: #2a2b36; 
   border-radius: 12px;
@@ -52,12 +48,11 @@ h1 {
 h2 {
   font-family: "Smooch Sans", sans-serif;
   font-size: 2rem;
-  color: #a5a6f6; /* Schöne lila-blaue Akzentfarbe für Überschriften */
+  color: #a5a6f6;
   margin-bottom: 15px;
   letter-spacing: 1px;
 }
 
-/* Text und Listen-Styling mit PT Sans */
 p {
   margin-bottom: 12px;
   font-size: 1.05rem;
@@ -72,11 +67,10 @@ li {
   margin-bottom: 8px;
 }
 
-/* Link-Styling */
 a {
   color: #ff79c6; 
   text-decoration: none;
-  font-weight: 700; /* Macht Links fett (Nutzt das geladene bold-Gewicht von PT Sans) */
+  font-weight: 700;
   transition: color 0.2s ease;
 }
 
@@ -85,13 +79,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Abkürzungen */
-abbr {
-  text-decoration: underline dotted #ff79c6;
-  cursor: help;
-}
-
-/* Social Media Icons im Footer */
 .social-links {
   display: flex;
   justify-content: center;
@@ -112,7 +99,6 @@ abbr {
 .social-links img:hover {
   transform: scale(1.15); 
 }
-
 
  /* Nur für die Links aus der Index page */
 .social-links {
