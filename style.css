@@ -8,7 +8,7 @@
 .BackToMainPage {
   position: fixed;
   top: 20px;
-  left: 20px;
+  right: 20px;
   
   background: #21222b;
   color: white;
