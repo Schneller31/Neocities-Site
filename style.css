@@ -30,13 +30,19 @@ header {
   text-align: center;
   margin-bottom: 40px;
 }
-
 h1 {
   font-family: "Smooch Sans", sans-serif;
   font-size: 3.5rem;
   letter-spacing: 2px;
   color: #ffffff;
   text-transform: uppercase;
+}
+h2 {
+  font-family: "Smooch Sans", sans-serif;
+  font-size: 2rem;
+  color: #a5a6f6;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
 }
 
 .sections {
@@ -46,14 +52,6 @@ h1 {
   margin-bottom: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border: 1px solid #3d3e4f;
-}
-
-h2 {
-  font-family: "Smooch Sans", sans-serif;
-  font-size: 2rem;
-  color: #a5a6f6;
-  margin-bottom: 15px;
-  letter-spacing: 1px;
 }
 
 p {
@@ -76,12 +74,13 @@ a {
   font-weight: 700;
   transition: color 0.2s ease;
 }
-
 a:hover {
   color: #ff92df;
   text-decoration: underline;
 }
 
+
+/*Für die links auf der Index seite*/
 .social-links {
   background: #21222b;
   border: 1px solid #444;

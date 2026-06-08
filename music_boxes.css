@@ -44,7 +44,7 @@
   text-decoration: underline;
   opacity: 0.8;
 }
-.boxen-nebeneinander a:hover { /* Damit man drüber hovern kann und es gut aussieht */
+.boxen-nebeneinander a:hover { /* Damit links leuchten wenn man drüber hovert */
   opacity: 1;
   color: #00fff7;
 }
