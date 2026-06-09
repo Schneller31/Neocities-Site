@@ -5,8 +5,7 @@
   margin-right: auto;
   width: fit-content;
   max-width: 600px;
-  /* background: linear-gradient(90deg, rgba(54, 168, 124, 0.5), rgba(17, 190, 212, 0.5)); */
-  background-color: rgba(54, 190, 124, 0.3);
+  background-color: rgba(54, 190, 124, 0.2);
   padding: 25px;
   border-radius: 10px;
   text-align: center; 
@@ -22,15 +21,15 @@
 
 .box-one {
   background: linear-gradient(160deg, rgba(38, 121, 89, 0.3), rgba(12, 41, 30, 0.3));
-  border: 1px solid #519794;
+  border: 1px solid rgba(81, 151, 148, 0.5);
 }
 .box-two { 
   background: linear-gradient(160deg, rgba(231, 83, 46, 0.3), rgba(102, 41, 25, 0.3));
-  border: 1px solid #a15353;
+  border: 1px solid rgba(161, 83, 83, 0.5);
 }
 .box-three {
   background: linear-gradient(160deg, rgba(38, 156, 68, 0.3), rgba(22, 83, 58, 0.3));
-  border: 1px solid #3d8f44;
+  border: 1px solid rgba(61, 143, 68, 0.5);
 }
 
 .boxen-nebeneinander {
@@ -56,7 +55,7 @@
 }
 .boxen-nebeneinander a:hover { /* Damit links leuchten wenn man drüber hovert */
   opacity: 1;
-  color: #00fff7;
+  color: #5695e7;
 }
 
 @media (max-width: 800px) { /* Anpassung an Screen-Größe */
