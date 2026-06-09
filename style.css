@@ -10,12 +10,11 @@
   top: 20px;
   right: 20px;
   
-  background: #21222b;
+  background: rgba(33, 34, 43, 0.5);
   color: white;
   padding: 15px;
   border-radius: 10px;
   padding: 15px;
-  border: 1px solid #444;
   
   z-index: 1000;
 }
@@ -29,7 +28,7 @@
 }
 
 body {
-  background-color: #1e1f29; 
+  background: linear-gradient(150deg, #267959, #6464af, #181827);
   color: #f1f1f4;
   font-family: "PT Sans", sans-serif; 
   font-weight: 400;
@@ -56,18 +55,17 @@ h1 {
 h2 {
   font-family: "Smooch Sans", sans-serif;
   font-size: 2rem;
-  color: #a5a6f6;
+  color: #4ba3dd;
   margin-bottom: 15px;
   letter-spacing: 1px;
 }
 
 .sections {
-  background-color: #2a2b36; 
+  background-color: rgba(42, 43, 54, 0.6); 
   border-radius: 12px;
   padding: 25px;
   margin-bottom: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  border: 1px solid #3d3e4f;
 }
 
 p {
@@ -96,10 +94,9 @@ a:hover {
 }
 
 
-/*Für die links auf der Index seite*/
+/*Für die Verlinkungen auf der Index seite*/
 .social-links {
-  background: #21222b;
-  border: 1px solid #444;
+  background: rgba(33, 34, 43, 0.5);
   border-radius: 15px;
   padding: 15px;
   margin-top: 40px;

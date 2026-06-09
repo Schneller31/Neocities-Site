@@ -5,7 +5,8 @@
   margin-right: auto;
   width: fit-content;
   max-width: 600px;
-  background: #2d3049;
+  /* background: linear-gradient(90deg, rgba(54, 168, 124, 0.5), rgba(17, 190, 212, 0.5)); */
+  background-color: rgba(54, 190, 124, 0.3);
   padding: 25px;
   border-radius: 10px;
   text-align: center; 
@@ -19,9 +20,18 @@
   margin-bottom: 8px;
 }
 
-.box-one { background-color: #212b25; }
-.box-two { background-color: #21272b; }
-.box-three { background-color: #2b2124; }
+.box-one {
+  background: linear-gradient(160deg, rgba(38, 121, 89, 0.3), rgba(12, 41, 30, 0.3));
+  border: 1px solid #519794;
+}
+.box-two { 
+  background: linear-gradient(160deg, rgba(231, 83, 46, 0.3), rgba(102, 41, 25, 0.3));
+  border: 1px solid #a15353;
+}
+.box-three {
+  background: linear-gradient(160deg, rgba(38, 156, 68, 0.3), rgba(22, 83, 58, 0.3));
+  border: 1px solid #3d8f44;
+}
 
 .boxen-nebeneinander {
   display: flex;

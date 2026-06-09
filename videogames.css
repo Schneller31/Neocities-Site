@@ -30,8 +30,8 @@
 }
 
 .Beschreibung {
-  background: #181a24;
-  border: 1px solid #444;
+  background: rgba(24, 26, 36, 0.75);
+  border: 0.5px solid #444;
   border-radius: 15px;
 
   padding: 15px;
