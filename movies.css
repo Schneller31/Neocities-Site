@@ -40,18 +40,10 @@
   color: #ffffff;
 }
 
-
-.videogame_picture {
+.movie_picture {
   width: 100%;
   max-width: 220px;
   height: auto; 
   aspect-ratio: 1 / 1;
-  border: 1px solid #444;
-}
-
-.hollowKnight {
-  width: 100%;
-  max-width: 220px;
-  height: auto !important; 
   border: 1px solid #444;
 }
