@@ -130,6 +130,10 @@ a:hover {
   filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.2)); 
 }
 
+.smoll {
+  font-size: small;
+}
+
 @media (max-width: 768px) {
   .social-links {
     gap: 20px;
